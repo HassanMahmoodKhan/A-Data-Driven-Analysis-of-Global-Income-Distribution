@@ -1,14 +1,19 @@
-# Random-Forest-Classification
-Using machine learning, the model attempts to predict whether (Y/N) the income of a certain individual, with certain attributes (= features), exceeds $ 50,000 per annum.
+# Comparative Analysis of Classifier Performance on Adult Census Income Dataset
+This project aims to predict the income bracket of individuals based on a variety of features, and presents a holistic comparative analysis between multiple machine learning algorithms through hyperparameter optimization on a binary classification problem.
 
-This is a binary classification problem, and I have employed the use of the following machine learning algorithm: Random Forest.  Using the Adult Data Set from the UCI Machine Learning Repository (https://archive.ics.uci.edu/ml/datasets/Adult), the algorithm is trained with 90% of the data set so it can try to classify the rest of the data (10%) into either of these 2 categories: exceeds 50 K per annum or not.
+Using machine learning, the model attempts to predict whether (Y/N) the income of a certain individual, with certain attributes (= features), exceeds $ 50,000 per annum. Three supervised, non-paramteric algorithms have been employed for evaluation i.e., K-nearest Neighbor, Support Vector Machine, & Random Forest.
+
+The Adult Data Set available at the UCI Machine Learning Repository (https://archive.ics.uci.edu/ml/datasets/Adult) is worked with to obtain results. The model is trained with 80% of the dataset and validated on the remaining 20%.
 
 The data set is decribed to have the following characteristics:
 - 48842 instances
 - 8 categorical attributes and 6 continous
 - 3620 instances with missing values
 
+The target variable is as follows:
 - income: >50K, <=50K
+
+The feature set is as follows:
 - age: continuous.
 - workclass: Private, Self-emp-not-inc, Self-emp-inc, Federal-gov, Local-gov, State-gov, Without-pay, Never-worked.
 - fnlwgt: continuous.
