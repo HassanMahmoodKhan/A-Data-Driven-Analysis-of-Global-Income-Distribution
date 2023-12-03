@@ -3,7 +3,7 @@ Income disparity is a significant issue that affects the global population at va
 Using machine learning, the model attempts to predict whether (Y/N) the income of a certain individual, with certain attributes (= features), exceeds $ 50,000 per annum. Three supervised, non-paramteric algorithms have been employed for evaluation i.e., K-nearest Neighbor, Support Vector Machine, & Random Forest.
 
 ## Dataset
-The Adult Data Set available at the UCI Machine Learning Repository (https://archive.ics.uci.edu/ml/datasets/Adult) is worked with to obtain results. The model is trained with 80% of the dataset and validated on the remaining 20%.
+The Adult Data Set available at the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Adult) is worked with to obtain results. The model is trained with 80% of the dataset and validated on the remaining 20%.
 
 The data set is decribed to have the following characteristics:
 - 48842 instances
