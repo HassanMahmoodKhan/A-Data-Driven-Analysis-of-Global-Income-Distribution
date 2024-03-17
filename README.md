@@ -1,4 +1,4 @@
-# Comparative Analysis of Classifier Performance on Adult Census Income Dataset
+# Exploring Global Income Disparity: Statistical Modeling and Analysi
 Income disparity is a significant issue that affects the global population at varying levels. Efforts have been put together to curb it and improve the socio-economic fabric of our societies. This project aims to predict the income bracket of individuals based on a variety of features, and presents a holistic comparative analysis between multiple machine learning algorithms through hyperparameter optimization on a binary classification problem.
 Using machine learning, the model attempts to predict whether (Y/N) the income of a certain individual, with certain attributes (= features), exceeds $ 50,000 per annum. Three supervised, non-paramteric algorithms have been employed for evaluation i.e., K-nearest Neighbor, Support Vector Machine, & Random Forest.
 
