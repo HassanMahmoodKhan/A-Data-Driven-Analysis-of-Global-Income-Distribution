@@ -30,7 +30,7 @@ I have employed the following steps to transform the dataset into a more represe
 4) Feature Scaling
 
 ## Model Building & Training
-There are three learning algorithms employed for the sake of the project:
+There are three machine learning algorithms employed for this project:
 1) K-Nearest Neighbor
 2) Support Vector Machine
 3) Random Forest
